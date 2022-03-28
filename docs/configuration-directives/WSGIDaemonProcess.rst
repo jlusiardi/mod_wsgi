@@ -60,7 +60,7 @@ Options which can be supplied to the ``WSGIDaemonProcess`` directive are:
     Do not get carried away and set this to a very large number in the
     belief that it will somehow magically enable you to handle many more
     concurrent users. Any sort of increased value would only be appropriate
-    where your code is I/O bound. If you code is CPU bound, you are better
+    where your code is I/O bound. If your code is CPU bound, you are better
     of using at most 3 to 5 threads per process and using more processes.
 
     If you set the number of threads to 0 you will enable a special mode
